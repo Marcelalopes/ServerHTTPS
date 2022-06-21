@@ -1,0 +1,132 @@
+body{
+    background-color:#f3e3f3;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nao-metais{
+    background-color: #CDEB01;
+    border: 1px solid black;
+}
+.metais-alcalinos{
+    background-color: #FFC402;
+    border: 1px solid black;
+}
+.semimetais{
+    background-color: #60B500;
+    border: 1px solid black;
+}
+.outros-metais{
+    background-color: #21EAD2;
+    border: 1px solid black;
+}
+.lantanideos{
+    background-color: #FCCA92;
+    border: 1px solid black;
+}
+.gases-nobres{
+    background-color: #C7CFFE;
+    border: 1px solid black;
+}
+.metais-alcalino-terrosos{
+    background-color: #FFEF03;
+    border: 1px solid black;
+}
+.halogenio{
+    background-color: #FD9D91;
+    border: 1px solid black;
+}
+.metais-transicao{
+    background-color: #CBA6B1;
+    border: 1px solid black;
+}
+.actinidios{
+    background-color: #75D0FF;
+    border: 1px solid black;
+}
+.table1{
+    margin: auto;
+}
+.table1 td:hover{
+    transition: .2s;
+    transform: scale(1.5);
+    cursor: pointer;
+    z-index: 2;
+}
+.table2 td:hover{
+    transition: .2s;
+    transform: scale(1.5);
+    cursor: pointer;
+    z-index: 2;
+}
+.numeros{
+    align-self: flex-start;
+    width: 67px;
+    font-size: 10px;
+}
+.sigla{
+    font-size: 20px;
+    text-align: center;
+}
+.elemento{
+    font-size: 12px;    
+    text-align: center;
+}
+.table2{
+    margin-left: 225px;
+}
+.descricao{
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+}
+.descricao td,th{
+    border: 1px solid black;
+}
+.descricao th{
+    font-size: 25px;
+    background-color:#9e5f96;
+}
+.num{
+    width: 40px;
+}
+.sbl{
+    width: 120px;
+}
+.name{
+    width: 150px;
+}
+.ma{
+    width: 200px;
+}
+.descricao tr{
+    font-size: 20px;
+    background-color:#c78cbf;
+}
+.legenda{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 25px 180px 25px 200px 25px 180px 25px 180px 25px 180px;
+}
+.legenda p{
+    height: 25px;
+    line-height: 0px;
+}
+.circulo {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+.descricao tr:target{
+    background-color:#eccbe8;
+    transition: all 1s ease 0.015s;
+}
